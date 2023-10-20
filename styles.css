@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700&family=Outfit:wght@400;700&family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca:wght@400;700&family=Outfit:wght@400;700&family=Roboto:wght@400;500;700&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: lexend deca, sans-serif;
+}
+
+.section {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.sedans {
+    background-color: #E28625;
+    color: white;
+    display: flex;
+    height: 500px;
+    width: 300px;
+}
+
+.suvs {
+    background-color: #006971;
+    color: white;
+    display: flex;
+    height: 500px;
+    width: 300px;
+}
+
+.luxury {
+    background-color: #004140;
+    color: white;
+    display: flex;
+    height: 500px;
+    width: 300px;
+}
+
+h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-family: big shoulder display, sans-serif;
+
+}
+
+
+
+button {
+    height: 48px;
+    width: 146px;
+    border-radius: 25px;
+    background: #F2F2F2;
+    align-items: center;
+}
+
+span {
+    width: 64px;
+    height: 40px;
+    padding: 8px 8px;
+}
+
+p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.car-logo {
+    display: flex;
+    padding: 8px 8px;
+    height: 64px;
+    width: 64px;
+}
+
